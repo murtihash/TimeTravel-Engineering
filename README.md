@@ -1,7 +1,7 @@
 # TimeTravel-Engineering
 Original.csv is the raw data and transformed.csv is the engineered data.
 The purpose of this project was to solve the issue of time snapshot/ time travel/ versioning of data .
-11 new columns were added to provide HISTORY and GRANULARITY to subscription sales for each and every row(sum over last4weeks, last13weeks, last52weeks by total(3 columns) and by type & coupon (3 columns). 3 columns for sales last 4 weeks and next 4 weeks, 2 Columns for Count of Yearly/Monthly Sales in the last 50 days. 
+11 new columns were added to provide HISTORY and GRANULARITY to subscription sales for each and every row(sum over last4weeks, last13weeks, last52weeks by total sales(3 columns) and by type & coupon (3 columns). 3 columns for sales last 4 weeks + next 4 weeks etc, 2 Columns for Count of Yearly/Monthly Sales in the last 50 days. 
 Now by just querying by some dates, you can get the historical context of each and every date(upto as many weeks as you want)
  The columns can be built to aggregate by particular time intervals and/or by categorical columns. There are several other use cases such as sliding windows for intervals that change with every iteration, rank and rownumber(), 
 # JUSTIFICATION:
